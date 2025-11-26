@@ -2,19 +2,13 @@
 __pycache__/
 *.py[cod]
 *$py.class
-.env
-venv/
 
-# Webots (Archivos temporales que no deben subirse)
+# Webots (Archivos temporales)
 .wbproj
-*.wbt~    # Backups automáticos de mundos
-controllers/*/Build/  # Si usaran C++, pero bueno tenerlo
-controllers/*/__pycache__/
+*.wbt~
 
-# Modelos entrenados (Opcional: si pesan >100MB no los subas a GitHub normal)
-# *.pth
-# *.h5
+# VS Code
+.vscode/
 
-# OS
-.DS_Store
+# Windows
 Thumbs.db
