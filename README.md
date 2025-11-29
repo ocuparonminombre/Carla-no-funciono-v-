@@ -34,6 +34,10 @@ nombre-repo-conduccion-autonoma/
 ├── .gitignore                    # ¡Muy importante!
 └── README.md                     # Presentación del proyecto
 
+agrengamos aprendizaje por curriculo
+
+python .\controllers\autonomus_driver\main_driver.py
+
 
 instalar webots
 usar pip install -r requirements.txt
@@ -42,4 +46,5 @@ usar pip install -r requirements.txt
 
 para iniciar las pruebas python controllers/autonomous_driver/main_driver.py
 python -c "import torch; print(torch.__version__)"
+
 
